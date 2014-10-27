@@ -45,12 +45,12 @@
     CCLabelTTF *_nameLabel;
     
     int points;
+    CGPoint _cloudParallaxRatio;
+    CGPoint _bushParallaxRatio;
+    
+    CCNode *_parallaxContainer;
 }
 
-CGPoint _cloudParallaxRatio;
-CGPoint _bushParallaxRatio;
-
-CCNode *_parallaxContainer;
 CCParallaxNode *_parallaxBackground;
 
 - (void)didLoadFromCCB {
